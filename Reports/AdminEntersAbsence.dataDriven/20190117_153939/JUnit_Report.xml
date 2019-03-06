@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminEntersAbsence.dataDriven" time="337" tests="2" failures="0" errors="0">
+   <testsuite name="AdminEntersAbsence.dataDriven" tests="2" failures="0" errors="0" time="337" timestamp="2019-01-17 15:39:40" hostname="SUKHVIR.GILL - MKM870-D-04D3.SeneDS.senecacollege.ca" id="Test Suites/AdminEntersAbsence.dataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190117_153939"/>
+         <property name="logFiles" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190117_153939\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190117_153939\\1547757848241.png"/>
+         <property name="hostName" value="SUKHVIR.GILL - MKM870-D-04D3.SeneDS.senecacollege.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.30.7.228"/>
+         <property name="sessionId" value="b75f10177dd414461bfc07df6d943137"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AdminEntersAbsence.dataDriven" classname="Test Cases/AdminEntersAbsence.dataDriven" status="PASSED">
+         <system-out><![CDATA[2019-01-17 15:39:41 - [TEST_CASE][PASSED] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven
+
+2019-01-17 15:39:41 - [TEST_STEP][PASSED] - evt = 30: null
+
+2019-01-17 15:39:41 - [TEST_STEP][PASSED] - plt = 30: null
+
+2019-01-17 15:39:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 15:39:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 15:39:41 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-01-17 15:39:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 15:39:47 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-17 15:39:48 - [MESSAGE][PASSED] - Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-17 15:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid"), userid): Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-17 15:39:52 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-17 15:39:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd"), password): Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-17 15:39:56 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-17 15:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit")): Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-17 15:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-17 15:39:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 15:40:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 15:40:02 - [TEST_STEP][PASSED] - waitForPageLoad(plt): Wait for page load successfully
+
+2019-01-17 15:40:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-17 15:40:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-17 15:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-17 15:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-17 15:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-17 15:40:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-17 15:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-17 15:40:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-17 15:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-17 15:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2019-01-17 15:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2019-01-17 15:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2019-01-17 15:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2019-01-17 15:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_"), emplID): Text '058833096' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2019-01-17 15:40:43 - [MESSAGE][PASSED] - Text '058833096' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2019-01-17 15:40:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_"), emplIDRecordNum): Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2019-01-17 15:40:52 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2019-01-17 15:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2019-01-17 15:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2019-01-17 15:41:00 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2019-01-17 15:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2019-01-17 15:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2019-01-17 15:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2019-01-17 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2019-01-17 15:41:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM"), absenceTake): Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2019-01-17 15:41:19 - [MESSAGE][PASSED] - Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2019-01-17 15:41:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT"), beginDate): Text '01/27/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2019-01-17 15:41:27 - [MESSAGE][PASSED] - Text '01/27/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2019-01-17 15:41:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT"), endDate): Text '01/31/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2019-01-17 15:41:35 - [MESSAGE][PASSED] - Text '01/31/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2019-01-17 15:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' is clicked on
+
+2019-01-17 15:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' is clicked on
+
+2019-01-17 15:41:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid"), processAction, false): All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2019-01-17 15:41:53 - [MESSAGE][PASSED] - All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2019-01-17 15:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR"), originalBeginDate): Text '01/27/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR'
+
+2019-01-17 15:42:01 - [MESSAGE][PASSED] - Text '01/27/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR'
+
+2019-01-17 15:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo' is clicked on
+
+2019-01-17 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo' is clicked on
+
+2019-01-17 15:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act' is clicked on
+
+2019-01-17 15:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act' is clicked on
+
+2019-01-17 15:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out' is clicked on
+
+2019-01-17 15:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out' is clicked on
+
+2019-01-17 15:42:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-17 15:42:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AdminEntersAbsence.dataDriven" classname="Test Cases/AdminEntersAbsence.dataDriven" status="PASSED">
+         <system-out><![CDATA[2019-01-17 15:42:15 - [TEST_CASE][PASSED] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven
+
+2019-01-17 15:42:15 - [TEST_STEP][PASSED] - evt = 30: null
+
+2019-01-17 15:42:15 - [TEST_STEP][PASSED] - plt = 30: null
+
+2019-01-17 15:42:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 15:42:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 15:42:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 15:42:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-17 15:42:21 - [MESSAGE][PASSED] - Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-17 15:42:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid"), userid): Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-17 15:42:26 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-17 15:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd"), password): Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-17 15:42:30 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-17 15:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit")): Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-17 15:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-17 15:42:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 15:42:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 15:42:35 - [TEST_STEP][PASSED] - waitForPageLoad(plt): Wait for page load successfully
+
+2019-01-17 15:42:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-17 15:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-17 15:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-17 15:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-17 15:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-17 15:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-17 15:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-17 15:42:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-17 15:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-17 15:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2019-01-17 15:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2019-01-17 15:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2019-01-17 15:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2019-01-17 15:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_"), emplID): Text '048123012 ' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2019-01-17 15:43:17 - [MESSAGE][PASSED] - Text '048123012 ' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2019-01-17 15:43:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_"), emplIDRecordNum): Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2019-01-17 15:43:25 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2019-01-17 15:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2019-01-17 15:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2019-01-17 15:43:33 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' located by 'By.xpath: //a[@id = 'SEARCH_RESULT1' and @name = 'RESULT2$0' and @href = concat('javascript:submitAction_win0(document.win0,' , "'" , '#ICRow0' , "'" , ');')]' not found)
+
+2019-01-17 15:43:33 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned")): Unable to click on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' located by 'By.xpath: //a[@id = 'SEARCH_RESULT1' and @name = 'RESULT2$0' and @href = concat('javascript:submitAction_win0(document.win0,' , "'" , '#ICRow0' , "'" , ');')]' not found)
+
+2019-01-17 15:44:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id = 'SEARCH_RESULT1' and @name = 'RESULT2$0' and @href = concat('javascript:submitAction_win0(document.win0,' , "'" , '#ICRow0' , "'" , ');')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-17 15:44:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' located by 'By.xpath: //a[@id = 'SEARCH_RESULT1' and @name = 'RESULT2$0' and @href = concat('javascript:submitAction_win0(document.win0,' , "'" , '#ICRow0' , "'" , ');')]' not found)
+[[ATTACHMENT|C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190117_153939\\1547757848241.png]]
+
+2019-01-17 15:44:09 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-01-17 15:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2019-01-17 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2019-01-17 15:44:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM"), absenceTake): Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2019-01-17 15:44:22 - [MESSAGE][PASSED] - Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2019-01-17 15:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT"), beginDate): Text '01/15/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2019-01-17 15:44:30 - [MESSAGE][PASSED] - Text '01/15/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2019-01-17 15:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT"), endDate): Text '01/15/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2019-01-17 15:44:38 - [MESSAGE][PASSED] - Text '01/15/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2019-01-17 15:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' is clicked on
+
+2019-01-17 15:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' is clicked on
+
+2019-01-17 15:44:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid"), processAction, false): All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2019-01-17 15:44:56 - [MESSAGE][PASSED] - All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2019-01-17 15:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR"), originalBeginDate): Text '01/15/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR'
+
+2019-01-17 15:45:04 - [MESSAGE][PASSED] - Text '01/15/2019' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR'
+
+2019-01-17 15:45:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo' is clicked on
+
+2019-01-17 15:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo' is clicked on
+
+2019-01-17 15:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act' is clicked on
+
+2019-01-17 15:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act' is clicked on
+
+2019-01-17 15:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out' is clicked on
+
+2019-01-17 15:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out' is clicked on
+
+2019-01-17 15:45:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-17 15:45:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-17 15:39:40 - [TEST_SUITE][PASSED] - AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

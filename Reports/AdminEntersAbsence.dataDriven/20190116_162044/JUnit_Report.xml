@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminEntersAbsence.dataDriven" time="130" tests="0" failures="0" errors="1">
+   <testsuite name="AdminEntersAbsence.dataDriven" tests="0" failures="0" errors="1" time="130" timestamp="2019-01-16 16:20:46" hostname="SUKHVIR.GILL - MKM870-D-04D3.SeneDS.senecacollege.ca" id="Test Suites/AdminEntersAbsence.dataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190116_162044"/>
+         <property name="logFiles" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190116_162044\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SUKHVIR.GILL - MKM870-D-04D3.SeneDS.senecacollege.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.30.7.228"/>
+         <property name="sessionId" value="b66f81a0c72121b78b7cf16fa684f17a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AdminEntersAbsence.dataDriven" classname="Test Cases/AdminEntersAbsence.dataDriven" status="ERROR">
+         <error type="ERROR" message="Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-16 16:20:46 - [TEST_CASE][ERROR] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)
+
+
+2019-01-16 16:20:46 - [TEST_STEP][PASSED] - evt = 30: null
+
+2019-01-16 16:20:46 - [TEST_STEP][PASSED] - plt = 30: null
+
+2019-01-16 16:20:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 16:20:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 16:20:47 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-01-16 16:20:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 16:20:52 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-16 16:20:53 - [MESSAGE][PASSED] - Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-16 16:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid"), userid): Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-16 16:20:57 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-16 16:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd"), password): Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-16 16:21:02 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-16 16:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit")): Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-16 16:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-16 16:21:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-16 16:21:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-16 16:21:07 - [TEST_STEP][PASSED] - waitForPageLoad(plt): Wait for page load successfully
+
+2019-01-16 16:21:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-16 16:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-16 16:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-16 16:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-16 16:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-16 16:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-16 16:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-16 16:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-16 16:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-16 16:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2019-01-16 16:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2019-01-16 16:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2019-01-16 16:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2019-01-16 16:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_"), emplID): Text '058833096' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2019-01-16 16:21:49 - [MESSAGE][PASSED] - Text '058833096' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2019-01-16 16:21:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_"), emplIDRecordNum): Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2019-01-16 16:21:58 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2019-01-16 16:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2019-01-16 16:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2019-01-16 16:22:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2019-01-16 16:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2019-01-16 16:22:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00")): Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2019-01-16 16:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2019-01-16 16:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM"), absenceTake): Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2019-01-16 16:22:24 - [MESSAGE][PASSED] - Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2019-01-16 16:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT"), beginDate): Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2019-01-16 16:22:33 - [MESSAGE][PASSED] - Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2019-01-16 16:22:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT"), endDate): Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2019-01-16 16:22:41 - [MESSAGE][PASSED] - Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2019-01-16 16:22:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid"), processAction, false): All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2019-01-16 16:22:52 - [MESSAGE][PASSED] - All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2019-01-16 16:22:54 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR"), originalBeginDate): setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR"), originalBeginDate) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)
+
+
+2019-01-16 16:22:54 - [MESSAGE][ERROR] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR"), originalBeginDate) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-16 16:20:46 - [TEST_CASE][ERROR] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-16 16:20:46 - [TEST_SUITE][ERROR] - AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-16 16:20:46 - [TEST_SUITE][ERROR] - AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: originalBeginDate for class: Script1543434608452
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673644470.run(TempTestSuite1547673644470.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

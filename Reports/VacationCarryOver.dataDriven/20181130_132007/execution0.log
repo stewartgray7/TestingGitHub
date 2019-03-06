@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-30T13:20:09</date>
+  <millis>1543602009801</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/VacationCarryOver.dataDriven</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">VacationCarryOver.dataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/VacationCarryOver.dataDriven</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:09</date>
+  <millis>1543602009830</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:09</date>
+  <millis>1543602009832</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:09</date>
+  <millis>1543602009832</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.30.7.25&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.30.7.25</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:09</date>
+  <millis>1543602009834</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.7.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.7.1.1</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010188</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/VacationCarryOver.dataDriven</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/VacationCarryOver.dataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/VacationCarryOver.dataDriven</property>
+  <property name="source">C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Test Cases\\VacationCarryOver.dataDriven.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010224</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010225</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;url&amp;apos; is set to https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&amp;amp;languageCd=ENG&amp;amp;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010226</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;userid&amp;apos; is set to KEVIN.YANG</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010226</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;password&amp;apos; is set to Welcome@1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;emplID&amp;apos; is set to 049764079</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;elementType&amp;apos; is set to VR0</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;elementName&amp;apos; is set to SN VAC SU CARY</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;beginDate&amp;apos; is set to 09/02/2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;endDate&amp;apos; is set to 09/02/2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;numericValue&amp;apos; is set to 3.5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010227</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;payeeEffDate&amp;apos; is set to 09/02/2018</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010229</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;payeeStatus&amp;apos; is set to A</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010229</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;payeeSequenceNumber&amp;apos; is set to 10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010229</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;payeeElementType&amp;apos; is set to VR0</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010229</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;payeeElementName&amp;apos; is set to SN VAC SU CARY</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010672</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - evt = 30</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010673</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - evt = 30</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010674</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - plt = 30</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010674</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - plt = 30</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:10</date>
+  <millis>1543602010674</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-30T13:20:11</date>
+  <millis>1543602011125</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:11</date>
+  <millis>1543602011127</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-30T13:20:11</date>
+  <millis>1543602011171</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>

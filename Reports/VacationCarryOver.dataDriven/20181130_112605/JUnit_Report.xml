@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VacationCarryOver.dataDriven" time="255" tests="1" failures="0" errors="0">
+   <testsuite name="VacationCarryOver.dataDriven" tests="1" failures="0" errors="0" time="255" timestamp="2018-11-30 11:26:37" hostname="stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca" id="Test Suites/VacationCarryOver.dataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\VacationCarryOver.dataDriven\\20181130_112605"/>
+         <property name="logFiles" value="C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\VacationCarryOver.dataDriven\\20181130_112605\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.30.7.25"/>
+         <property name="sessionId" value="7613e241499729d193214aa0f74b9bbb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VacationCarryOver.dataDriven" classname="Test Cases/VacationCarryOver.dataDriven" status="PASSED">
+         <system-out><![CDATA[2018-11-30 11:26:37 - [TEST_CASE][PASSED] - Test Cases/VacationCarryOver.dataDriven: Test Cases/VacationCarryOver.dataDriven
+
+2018-11-30 11:26:37 - [TEST_STEP][PASSED] - Statement - evt = 30: null
+
+2018-11-30 11:26:37 - [TEST_STEP][PASSED] - Statement - plt = 30: null
+
+2018-11-30 11:26:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-30 11:26:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-30 11:26:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2018-11-30 11:26:45 - [MESSAGE][PASSED] - Navigate to 'https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2018-11-30 11:26:45 - [TEST_STEP][PASSED] - setText: Text 'KEVIN.YANG' is set on object 'Object Repository/VacationCarryOver/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2018-11-30 11:26:49 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/VacationCarryOver/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2018-11-30 11:26:49 - [TEST_STEP][PASSED] - setText: Text 'Welcome@1' is set on object 'Object Repository/VacationCarryOver/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2018-11-30 11:26:53 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/VacationCarryOver/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2018-11-30 11:26:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2018-11-30 11:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2018-11-30 11:26:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-30 11:26:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-30 11:26:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-30 11:27:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-30 11:27:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2018-11-30 11:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2018-11-30 11:27:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:27:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-30 11:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-30 11:27:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Payee Data' is clicked on
+
+2018-11-30 11:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Payee Data' is clicked on
+
+2018-11-30 11:27:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Create Overrides' is clicked on
+
+2018-11-30 11:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Create Overrides' is clicked on
+
+2018-11-30 11:27:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Supporting Elements' is clicked on
+
+2018-11-30 11:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_My Homepage/a_Supporting Elements' is clicked on
+
+2018-11-30 11:27:34 - [TEST_STEP][PASSED] - setText: Text '049764079' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2018-11-30 11:27:40 - [MESSAGE][PASSED] - Text '049764079' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2018-11-30 11:27:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Case Sensitive_ICSearch' is clicked on
+
+2018-11-30 11:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Case Sensitive_ICSearch' is clicked on
+
+2018-11-30 11:27:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/img' is clicked on
+
+2018-11-30 11:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/img' is clicked on
+
+2018-11-30 11:27:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_FT Support Vacation Carryove' is clicked on
+
+2018-11-30 11:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_FT Support Vacation Carryove' is clicked on
+
+2018-11-30 11:28:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VR0' are selected in object 'Object Repository/VacationCarryOver/Page_Supporting Elements/select_ BracketDateDurationFor' 
+
+2018-11-30 11:28:11 - [MESSAGE][PASSED] - All options with value 'VR0' are selected in object 'Object Repository/VacationCarryOver/Page_Supporting Elements/select_ BracketDateDurationFor' 
+
+2018-11-30 11:28:13 - [TEST_STEP][PASSED] - setText: Text 'SN VAC SU CARY' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Numeric Value_GP_PIN_NM_'
+
+2018-11-30 11:28:20 - [MESSAGE][PASSED] - Text 'SN VAC SU CARY' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Numeric Value_GP_PIN_NM_'
+
+2018-11-30 11:28:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/select_ BracketDateDurationFor' is clicked on
+
+2018-11-30 11:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/select_ BracketDateDurationFor' is clicked on
+
+2018-11-30 11:28:28 - [TEST_STEP][PASSED] - setText: Text '09/02/2018' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_FT Support Vacation Carr'
+
+2018-11-30 11:28:34 - [MESSAGE][PASSED] - Text '09/02/2018' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_FT Support Vacation Carr'
+
+2018-11-30 11:28:36 - [TEST_STEP][PASSED] - setText: Text '09/02/2018' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_FT Support Vacation Carr_2'
+
+2018-11-30 11:28:43 - [MESSAGE][PASSED] - Text '09/02/2018' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_FT Support Vacation Carr_2'
+
+2018-11-30 11:28:45 - [TEST_STEP][PASSED] - setText: Text '3.5' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_FT Support Vacation Carr_6'
+
+2018-11-30 11:28:51 - [MESSAGE][PASSED] - Text '3.5' is set on object 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_FT Support Vacation Carr_6'
+
+2018-11-30 11:28:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Seneca Sick Support Bal' is clicked on
+
+2018-11-30 11:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/input_Seneca Sick Support Bal' is clicked on
+
+2018-11-30 11:28:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Sign out_pthdr2navbar' is clicked on
+
+2018-11-30 11:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Sign out_pthdr2navbar' is clicked on
+
+2018-11-30 11:29:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:29:07 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-30 11:29:07 - [TEST_STEP][PASSED] - Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible("Object Repository/VacationCarryOver/Page_Supporting Elements/a_Main Menu"))): null
+
+2018-11-30 11:29:07 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:29:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-30 11:29:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Main Menu' is clicked on
+
+2018-11-30 11:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Main Menu' is clicked on
+
+2018-11-30 11:29:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-30 11:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-30 11:29:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Payee Data' is clicked on
+
+2018-11-30 11:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Payee Data' is clicked on
+
+2018-11-30 11:29:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Create Overrides' is clicked on
+
+2018-11-30 11:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Create Overrides' is clicked on
+
+2018-11-30 11:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Payee Sections' is clicked on
+
+2018-11-30 11:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Supporting Elements/a_Payee Sections' is clicked on
+
+2018-11-30 11:29:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/a_Last_ICField7new00' is clicked on
+
+2018-11-30 11:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/a_Last_ICField7new00' is clicked on
+
+2018-11-30 11:29:52 - [TEST_STEP][PASSED] - setText: Text '09/02/2018' is set on object 'Object Repository/VacationCarryOver/Page_Payee Sections/input_Last_GP_PYE_SECTION1_EFF'
+
+2018-11-30 11:29:58 - [MESSAGE][PASSED] - Text '09/02/2018' is set on object 'Object Repository/VacationCarryOver/Page_Payee Sections/input_Last_GP_PYE_SECTION1_EFF'
+
+2018-11-30 11:30:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'A' are selected in object 'Object Repository/VacationCarryOver/Page_Payee Sections/select_ActiveInactive' 
+
+2018-11-30 11:30:09 - [MESSAGE][PASSED] - All options with value 'A' are selected in object 'Object Repository/VacationCarryOver/Page_Payee Sections/select_ActiveInactive' 
+
+2018-11-30 11:30:11 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/VacationCarryOver/Page_Payee Sections/input_Recalculate_GP_PYE_SECT_'
+
+2018-11-30 11:30:18 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/VacationCarryOver/Page_Payee Sections/input_Recalculate_GP_PYE_SECT_'
+
+2018-11-30 11:30:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VR0' are selected in object 'Object Repository/VacationCarryOver/Page_Payee Sections/select_ Absence EntitlementAbs' 
+
+2018-11-30 11:30:30 - [MESSAGE][PASSED] - All options with value 'VR0' are selected in object 'Object Repository/VacationCarryOver/Page_Payee Sections/select_ Absence EntitlementAbs' 
+
+2018-11-30 11:30:32 - [TEST_STEP][PASSED] - setText: Text 'SN VAC SU CARY' is set on object 'Object Repository/VacationCarryOver/Page_Payee Sections/input_Recalculate_GP_PIN_NM_VW'
+
+2018-11-30 11:30:38 - [MESSAGE][PASSED] - Text 'SN VAC SU CARY' is set on object 'Object Repository/VacationCarryOver/Page_Payee Sections/input_Recalculate_GP_PIN_NM_VW'
+
+2018-11-30 11:30:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/input_FT Support Vacation Carr' is clicked on
+
+2018-11-30 11:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/input_FT Support Vacation Carr' is clicked on
+
+2018-11-30 11:30:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/a_Actions List Popup_pthdr2Act' is clicked on
+
+2018-11-30 11:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/a_Actions List Popup_pthdr2Act' is clicked on
+
+2018-11-30 11:30:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/span_Sign out' is clicked on
+
+2018-11-30 11:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/VacationCarryOver/Page_Payee Sections/span_Sign out' is clicked on
+
+2018-11-30 11:30:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-30 11:30:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-30 11:26:37 - [TEST_SUITE][PASSED] - VacationCarryOver.dataDriven: Test Cases/VacationCarryOver.dataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

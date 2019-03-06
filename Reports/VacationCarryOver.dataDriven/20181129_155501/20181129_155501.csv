@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VacationCarryOver.dataDriven,Chrome 70.0.3538.110,,2018-11-29 15:55:04,2018-11-29 15:55:21,17.176s,FAILED
+,,,,,,
+Test Cases/VacationCarryOver.dataDriven,Chrome 70.0.3538.110,,2018-11-29 15:55:04,2018-11-29 15:55:19,14.813s,FAILED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 15:55:05,2018-11-29 15:55:12,7.348s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 15:55:12,2018-11-29 15:55:14,1.325s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 15:55:14,2018-11-29 15:55:18,4.187s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-11-29 15:55:18,2018-11-29 15:55:19,1.401s,FAILED

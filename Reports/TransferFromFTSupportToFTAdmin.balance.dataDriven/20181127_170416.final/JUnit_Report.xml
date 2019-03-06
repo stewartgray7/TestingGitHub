@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TransferFromFTSupportToFTAdmin.balance.dataDriven" time="142" tests="1" failures="0" errors="0">
+   <testsuite name="TransferFromFTSupportToFTAdmin.balance.dataDriven" tests="1" failures="0" errors="0" time="142" timestamp="2018-11-27 17:04:19" hostname="stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca" id="Test Suites/TransferFromFTSupportToFTAdmin.balance.dataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\TransferFromFTSupportToFTAdmin.balance.dataDriven\\20181127_170416"/>
+         <property name="logFiles" value="C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\TransferFromFTSupportToFTAdmin.balance.dataDriven\\20181127_170416\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.30.7.25"/>
+         <property name="sessionId" value="95c438e9181390cd5fe774a4198f0ac7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TransferFromFTSupportToFTAdmin.balance.dataDriven" classname="Test Cases/TransferFromFTSupportToFTAdmin.balance.dataDriven" status="PASSED">
+         <system-out><![CDATA[2018-11-27 17:04:20 - [TEST_CASE][PASSED] - Test Cases/TransferFromFTSupportToFTAdmin.balance.dataDriven: Test Cases/TransferFromFTSupportToFTAdmin.balance.dataDriven
+
+2018-11-27 17:04:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-27 17:04:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-27 17:04:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2018-11-27 17:04:28 - [MESSAGE][PASSED] - Navigate to 'https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2018-11-27 17:04:28 - [TEST_STEP][PASSED] - setText: Text 'KEVIN.YANG' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2018-11-27 17:04:32 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2018-11-27 17:04:32 - [TEST_STEP][PASSED] - setText: Text 'Welcome@1' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2018-11-27 17:04:36 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2018-11-27 17:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2018-11-27 17:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2018-11-27 17:04:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-27 17:04:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-27 17:04:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2018-11-27 17:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2018-11-27 17:04:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-27 17:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-27 17:04:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-27 17:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-27 17:04:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Payee Data' is clicked on
+
+2018-11-27 17:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Payee Data' is clicked on
+
+2018-11-27 17:05:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Adjust Balances' is clicked on
+
+2018-11-27 17:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Adjust Balances' is clicked on
+
+2018-11-27 17:05:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Absences' is clicked on
+
+2018-11-27 17:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_My Homepage/a_Absences' is clicked on
+
+2018-11-27 17:05:17 - [TEST_STEP][PASSED] - setText: Text '066235037' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Empl ID_GP_PI_MNL_AE_VW_'
+
+2018-11-27 17:05:23 - [MESSAGE][PASSED] - Text '066235037' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Empl ID_GP_PI_MNL_AE_VW_'
+
+2018-11-27 17:05:25 - [TEST_STEP][PASSED] - setText: Text 'FTS' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Pay Group_GP_PI_MNL_AE_V'
+
+2018-11-27 17:05:31 - [MESSAGE][PASSED] - Text 'FTS' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Pay Group_GP_PI_MNL_AE_V'
+
+2018-11-27 17:05:33 - [TEST_STEP][PASSED] - setText: Text 'FTS SN18-B17' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Calendar ID_GP_PI_MNL_AE'
+
+2018-11-27 17:05:39 - [MESSAGE][PASSED] - Text 'FTS SN18-B17' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Calendar ID_GP_PI_MNL_AE'
+
+2018-11-27 17:05:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Case Sensitive_ICSearch' is clicked on
+
+2018-11-27 17:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Case Sensitive_ICSearch' is clicked on
+
+2018-11-27 17:05:47 - [TEST_STEP][PASSED] - setText: Text 'SN AE VAC SU' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Comments_GP_PIN_NM_VW_PI'
+
+2018-11-27 17:05:54 - [MESSAGE][PASSED] - Text 'SN AE VAC SU' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Comments_GP_PIN_NM_VW_PI'
+
+2018-11-27 17:05:56 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI'
+
+2018-11-27 17:06:02 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI'
+
+2018-11-27 17:06:04 - [TEST_STEP][PASSED] - setText: Text '08/03/2018' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI_1'
+
+2018-11-27 17:06:10 - [MESSAGE][PASSED] - Text '08/03/2018' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI_1'
+
+2018-11-27 17:06:12 - [TEST_STEP][PASSED] - setText: Text '08/03/2018' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI_6'
+
+2018-11-27 17:06:18 - [MESSAGE][PASSED] - Text '08/03/2018' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI_6'
+
+2018-11-27 17:06:20 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI_7'
+
+2018-11-27 17:06:27 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_GP_PI_7'
+
+2018-11-27 17:06:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_ICSav' is clicked on
+
+2018-11-27 17:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/input_Vacation - Support_ICSav' is clicked on
+
+2018-11-27 17:06:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/a_Actions List Popup_pthdr2Act' is clicked on
+
+2018-11-27 17:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/a_Actions List Popup_pthdr2Act' is clicked on
+
+2018-11-27 17:06:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/span_Sign out' is clicked on
+
+2018-11-27 17:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TransferFromFTSupportToFTAdmin.balance/Page_Absences/span_Sign out' is clicked on
+
+2018-11-27 17:06:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-27 17:06:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-27 17:04:19 - [TEST_SUITE][PASSED] - TransferFromFTSupportToFTAdmin.balance.dataDriven: Test Cases/TransferFromFTSupportToFTAdmin.balance.dataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

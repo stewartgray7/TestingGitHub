@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminEntersAbsence.dataDriven" time="80" tests="0" failures="1" errors="0">
+   <testsuite name="AdminEntersAbsence.dataDriven" tests="0" failures="1" errors="0" time="80" timestamp="2019-01-16 16:13:48" hostname="SUKHVIR.GILL - MKM870-D-04D3.SeneDS.senecacollege.ca" id="Test Suites/AdminEntersAbsence.dataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190116_161347"/>
+         <property name="logFiles" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190116_161347\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190116_161347\\1547673306540.png"/>
+         <property name="hostName" value="SUKHVIR.GILL - MKM870-D-04D3.SeneDS.senecacollege.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.30.7.228"/>
+         <property name="sessionId" value="f66c5834ece8dcfcfaee350bf57e4606"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AdminEntersAbsence.dataDriven" classname="Test Cases/AdminEntersAbsence.dataDriven" status="FAILED">
+         <failure type="FAILED" message="Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-16 16:13:49 - [TEST_CASE][FAILED] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)
+
+
+2019-01-16 16:13:49 - [TEST_STEP][PASSED] - evt = 30: null
+
+2019-01-16 16:13:49 - [TEST_STEP][PASSED] - plt = 30: null
+
+2019-01-16 16:13:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 16:13:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 16:13:49 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-01-16 16:13:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 16:13:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-16 16:13:56 - [MESSAGE][PASSED] - Navigate to 'http://ps-hrappu01pjts.i3.senecacollege.ca:8010/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2019-01-16 16:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid"), userid): Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-16 16:14:00 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2019-01-16 16:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd"), password): Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-16 16:14:04 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2019-01-16 16:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit")): Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-16 16:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2019-01-16 16:14:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-16 16:14:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-16 16:14:10 - [TEST_STEP][PASSED] - waitForPageLoad(plt): Wait for page load successfully
+
+2019-01-16 16:14:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-16 16:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-16 16:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2019-01-16 16:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-16 16:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2019-01-16 16:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-16 16:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2019-01-16 16:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data")): Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-16 16:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2019-01-16 16:14:32 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences")): click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)
+
+
+2019-01-16 16:15:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-16 16:15:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+[[ATTACHMENT|C:\\Users\\sukhvir.gill\\Desktop\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20190116_161347\\1547673306540.png]]
+
+2019-01-16 16:15:07 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-16 16:13:49 - [TEST_CASE][FAILED] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-16 16:13:48 - [TEST_SUITE][FAILED] - AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-16 16:13:48 - [TEST_SUITE][FAILED] - AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' located by 'By.xpath: //a[@id = 'PTNUI_NB_CNTREC_PTNUI_LINK$7' and (text() = 'Maintain Absences' or . = 'Maintain Absences')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AdminEntersAbsence.dataDriven.run(AdminEntersAbsence.dataDriven:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547673227230.run(TempTestSuite1547673227230.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

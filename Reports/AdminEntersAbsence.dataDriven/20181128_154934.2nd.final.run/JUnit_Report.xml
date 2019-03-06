@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminEntersAbsence.dataDriven" time="149" tests="1" failures="0" errors="0">
+   <testsuite name="AdminEntersAbsence.dataDriven" tests="1" failures="0" errors="0" time="149" timestamp="2018-11-28 15:49:35" hostname="stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca" id="Test Suites/AdminEntersAbsence.dataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20181128_154934"/>
+         <property name="logFiles" value="C:\\Testing\\katalon\\HR\\AM\\AM.GlobalPayrollAndAbsenceManagement_fld\\Reports\\AdminEntersAbsence.dataDriven\\20181128_154934\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="stewart.gray - MKM870-L-6D90.SeneDS.senecacollege.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.30.7.25"/>
+         <property name="sessionId" value="d43afc6fa930c6d707d05dc8cca8b6d8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AdminEntersAbsence.dataDriven" classname="Test Cases/AdminEntersAbsence.dataDriven" status="PASSED">
+         <system-out><![CDATA[2018-11-28 15:49:35 - [TEST_CASE][PASSED] - Test Cases/AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven
+
+2018-11-28 15:49:36 - [TEST_STEP][PASSED] - Statement - evt = 30: null
+
+2018-11-28 15:49:36 - [TEST_STEP][PASSED] - Statement - plt = 30: null
+
+2018-11-28 15:49:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-28 15:49:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-28 15:49:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2018-11-28 15:49:44 - [MESSAGE][PASSED] - Navigate to 'https://hrerp-uatoc.senecacollege.ca/psp/ps/?cmd=login&languageCd=ENG&' successfully
+
+2018-11-28 15:49:44 - [TEST_STEP][PASSED] - setText: Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2018-11-28 15:49:48 - [MESSAGE][PASSED] - Text 'KEVIN.YANG' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid'
+
+2018-11-28 15:49:48 - [TEST_STEP][PASSED] - setText: Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2018-11-28 15:49:52 - [MESSAGE][PASSED] - Text 'Welcome@1' is set on object 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd'
+
+2018-11-28 15:49:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2018-11-28 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit' is clicked on
+
+2018-11-28 15:49:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-28 15:49:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 15:49:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-28 15:49:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-28 15:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2018-11-28 15:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR' is clicked on
+
+2018-11-28 15:50:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-28 15:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN' is clicked on
+
+2018-11-28 15:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-28 15:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt' is clicked on
+
+2018-11-28 15:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2018-11-28 15:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data' is clicked on
+
+2018-11-28 15:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2018-11-28 15:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences' is clicked on
+
+2018-11-28 15:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2018-11-28 15:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_My Homepage/a_Absence Event' is clicked on
+
+2018-11-28 15:50:33 - [TEST_STEP][PASSED] - setText: Text '058833096' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2018-11-28 15:50:39 - [MESSAGE][PASSED] - Text '058833096' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl ID_EMPLMT_SRCH_GBL_'
+
+2018-11-28 15:50:41 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2018-11-28 15:50:47 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Empl Record_EMPLMT_SRCH_'
+
+2018-11-28 15:50:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2018-11-28 15:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Case Sensitive_ICSearch' is clicked on
+
+2018-11-28 15:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2018-11-28 15:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_firstRecordReturned' is clicked on
+
+2018-11-28 15:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2018-11-28 15:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Approved_GP_ABS_EVENTnew00' is clicked on
+
+2018-11-28 15:51:08 - [TEST_STEP][PASSED] - setText: Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2018-11-28 15:51:14 - [MESSAGE][PASSED] - Text 'SN AT SCK SU' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_PIN_NM_VW_PIN_NM'
+
+2018-11-28 15:51:16 - [TEST_STEP][PASSED] - setText: Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2018-11-28 15:51:22 - [MESSAGE][PASSED] - Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_BGN_DT'
+
+2018-11-28 15:51:24 - [TEST_STEP][PASSED] - setText: Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2018-11-28 15:51:31 - [MESSAGE][PASSED] - Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Sick_GP_ABS_EVENT_END_DT'
+
+2018-11-28 15:51:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2018-11-28 15:51:42 - [MESSAGE][PASSED] - All options with value 'N' are selected in object 'Object Repository/AdminEntersAbsence/Page_Absence Event/select_NormalVoid' 
+
+2018-11-28 15:51:44 - [TEST_STEP][PASSED] - setText: Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR'
+
+2018-11-28 15:51:50 - [MESSAGE][PASSED] - Text '09/08/2018' is set on object 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Approved_GP_ABS_EVENT_OR'
+
+2018-11-28 15:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo' is clicked on
+
+2018-11-28 15:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/input_Entering Updating and Vo' is clicked on
+
+2018-11-28 15:51:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act' is clicked on
+
+2018-11-28 15:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/a_Actions List Popup_pthdr2Act' is clicked on
+
+2018-11-28 15:52:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out' is clicked on
+
+2018-11-28 15:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminEntersAbsence/Page_Absence Event/span_Sign out' is clicked on
+
+2018-11-28 15:52:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-28 15:52:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 15:49:35 - [TEST_SUITE][PASSED] - AdminEntersAbsence.dataDriven: Test Cases/AdminEntersAbsence.dataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AdminEntersAbsence.dataDriven,Chrome 71.0.3578.98,,2019-01-16 16:13:48,2019-01-16 16:15:09,1m - 20.771s,FAILED
+,,,,,,
+Test Cases/AdminEntersAbsence.dataDriven,Chrome 71.0.3578.98,,2019-01-16 16:13:49,2019-01-16 16:15:07,1m - 18.777s,FAILED
+evt = 30,Chrome 71.0.3578.98,,2019-01-16 16:13:49,2019-01-16 16:13:49,0.001s,PASSED
+plt = 30,Chrome 71.0.3578.98,,2019-01-16 16:13:49,2019-01-16 16:13:49,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 16:13:49,2019-01-16 16:13:55,5.600s,PASSED
+navigateToUrl(url),Chrome 71.0.3578.98,,2019-01-16 16:13:55,2019-01-16 16:13:56,1.196s,PASSED
+"setText(findTestObject(""Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_User ID_userid""), userid)",Chrome 71.0.3578.98,,2019-01-16 16:13:56,2019-01-16 16:14:00,4.248s,PASSED
+"setText(findTestObject(""Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Password_pwd""), password)",Chrome 71.0.3578.98,,2019-01-16 16:14:00,2019-01-16 16:14:04,4.154s,PASSED
+"click(findTestObject(""Object Repository/AdminEntersAbsence/Page_Oracle PeopleSoft Sign-in/input_Select a Language_Submit""))",Chrome 71.0.3578.98,,2019-01-16 16:14:04,2019-01-16 16:14:07,3.100s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-16 16:14:07,2019-01-16 16:14:10,2.151s,PASSED
+waitForPageLoad(plt),Chrome 71.0.3578.98,,2019-01-16 16:14:10,2019-01-16 16:14:11,1.050s,PASSED
+"click(findTestObject(""Object Repository/AdminEntersAbsence/Page_My Homepage/a_Sign Out_PT_NAVBAR""))",Chrome 71.0.3578.98,,2019-01-16 16:14:11,2019-01-16 16:14:13,2.397s,PASSED
+"click(findTestObject(""Object Repository/AdminEntersAbsence/Page_My Homepage/div_Navigator_grouplet_PTNBPTN""))",Chrome 71.0.3578.98,,2019-01-16 16:14:13,2019-01-16 16:14:19,6.247s,PASSED
+"click(findTestObject(""Object Repository/AdminEntersAbsence/Page_My Homepage/a_Global Payroll  Absence Mgmt""))",Chrome 71.0.3578.98,,2019-01-16 16:14:19,2019-01-16 16:14:25,6.174s,PASSED
+"click(findTestObject(""Object Repository/AdminEntersAbsence/Page_My Homepage/a_Payee Data""))",Chrome 71.0.3578.98,,2019-01-16 16:14:25,2019-01-16 16:14:32,6.184s,PASSED
+"click(findTestObject(""Object Repository/AdminEntersAbsence/Page_My Homepage/a_Maintain Absences""))",Chrome 71.0.3578.98,,2019-01-16 16:14:32,2019-01-16 16:15:07,35.811s,FAILED
